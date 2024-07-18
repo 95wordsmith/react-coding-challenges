@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "content": "This is the first comment",
+    "votes": 5,
+    "timestamp": "2024-06-16T10:00:00Z",
+    "replies": [
+      {
+        "id": 2,
+
+        "content": "This is the first reply to the first comment",
+        "votes": 2,
+        "timestamp": "2024-06-16T12:00:00Z",
+        "replies": []
+      },
+      {
+        "id": 3,
+
+        "content": "",
+        "votes": 0,
+        "timestamp": "2024-06-16T13:00:00Z",
+        "replies": [
+          {
+            "id": 4,
+
+            "content": "This is a nested reply",
+            "votes": 1,
+            "timestamp": "2024-06-16T14:00:00Z",
+            "replies": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+
+    "content": "This is the second comment",
+    "votes": 10,
+    "timestamp": "2024-06-17T09:00:00Z",
+    "replies": [
+      {
+        "id": 6,
+
+        "content": "This is a reply to the second comment",
+        "votes": 3,
+        "timestamp": "2024-06-17T10:00:00Z",
+        "replies": [
+          {
+            "id": 7,
+
+            "content": "",
+            "votes": 0,
+            "timestamp": "2024-06-17T11:00:00Z",
+            "replies": [
+              {
+                "id": 8,
+
+                "content": "Nested reply with data",
+                "votes": 2,
+                "timestamp": "2024-06-17T12:00:00Z",
+                "replies": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+
+    "content": "This is the third comment",
+    "votes": 0,
+    "timestamp": "2024-06-18T15:00:00Z",
+    "replies": []
+  }
+]
